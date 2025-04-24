@@ -28,21 +28,3 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     }
   );
 });
-
-// (function () {
-//   emailjs.init("TW7IEGbpt6xS9ijJa"); // Ganti dengan PUBLIC KEY dari EmailJS dashboard
-// })();
-
-// document.getElementById("contactForm").addEventListener("submit", function (e) {
-//   e.preventDefault();
-
-//   emailjs.sendForm("service_2f8y2em", "template_bzdmlff", this).then(
-//     function () {
-//       alert("Pesan berhasil dikirim!");
-//       document.getElementById("contactForm").reset(); // Optional: reset form setelah kirim
-//     },
-//     function (error) {
-//       alert("Gagal mengirim: " + JSON.stringify(error));
-//     }
-//   );
-// });
