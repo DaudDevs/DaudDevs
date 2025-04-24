@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit&family=Poppins:wght@900&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </head>
+  <body>
+    <!-- NavStart -->
+    <nav class="navbar">
+      <div class="name"><h1>Hello Im DaudDev</h1></div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="https://github.com/DaudDevs" class="github-btn"
+        ><img src="img/Gihtub.png" class="github" />Github</a
+      >
+    </nav>
+    <!-- NavEnd -->
+    <!-- MainStart -->
+    <main id="about">
+      <div class="about">
+        <h1>About</h1>
+      </div>
+      <img src="img/Profile.png" class="profile" />
+      <p class="parone">
+        Front-end developer enthusiast | SMK Muhammadiyah 1 Playen | On my way
+        to be pro
+      </p>
+      <p class="partwo">
+        Saya Daud Hanafi, seorang front-end developer pemula <br />yang sedang
+        menempuh pendidikan di SMK Muhammadiyah 1 Playen. <br />Saya menyukai
+        dunia coding, terutama dalam membangun tampilan <br />antar muka web
+        yang menarik dan responsif.<br />
+        Dengan semangat belajar yang tinggi dan gaya yang santai, <br />saya
+        terus mengasah kemampuan saya untuk menjadi developer profesional.
+      </p>
+    </main>
+    <!-- MainEnd -->
+    <!-- ContactStart -->
+    <div id="contact">
+      <h1>Contact Me</h1>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <div class="row">
+        <div class="input-group">
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" name="first-name" />
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last name</label>
+          <input type="text" id="last-name" name="last-name" />
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div class="input-group">
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <!-- ContactEnd -->
+    <!-- FooterStart -->
+    <footer>
+      <div class="footer">
+        <h1>Created By DaudDev<img src="img/checklist.png" alt="" /></h1>
+      </div>
+    </footer>
+    <!-- FooterEnd -->
+    <script src="script.js"></script>
+  </body>
+</html>
