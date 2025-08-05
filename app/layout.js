@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portofolio | Nama Anda", // Ganti "Nama Anda" dengan nama Anda
-  description: "Portofolio web yang dibuat dengan Next.js",
+  title: "Portofolio | Daud Hanafi", // Ganti "Nama Anda" dengan nama Anda
+  description: "Portofolio Web Developer | Daud Hanafi", // Ganti "Deskripsi Anda" dengan deskripsi portofolio Anda
 };
 
 export default function RootLayout({ children }) {
